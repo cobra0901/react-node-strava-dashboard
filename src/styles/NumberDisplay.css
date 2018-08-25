@@ -1,0 +1,11 @@
+.NumberDisplay .value {
+    font-size: 3.3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #00000088;
+    opacity: 0.9;
+}
+
+.NumberDisplay .max {
+    display: block;
+    clear: left;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "react-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.0",
+    "body-parser": "^1.18.2",
+    "chart.js": "^2.5.0",
+    "create-react-app": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mongoose": "^4.13.7",
+    "react": "^15.4.2",
+    "react-chartjs-2": "^2.0.5",
+    "react-d3-speedometer": "^0.2.2",
+    "react-dom": "^15.4.2",
+    "react-dom-factories": "^1.0.2",
+    "react-moment": "^0.7.9",
+    "react-mt-svg-lines": "^0.8.3",
+    "react-repeat-component": "^1.0.2",
+    "react-router-dom": "^4.3.1",
+    "react-script": "^2.0.5",
+    "react-selectize": "^3.0.1",
+    "react-transition-group": "^2.4.0",
+    "strava-v3": "^1.14.0"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "serve": "node server.js",
+    "serve-delayed": "node server.js delayresponse"
+  }
+}
